@@ -7,7 +7,7 @@ ModPE.setItem (372,'nether_wart',0,'Nether Wart Seeds')
 
 // Blocks
 
-Block.defineBlock (88,'Soul Sand',[['soul_sand',0]],3,false,7)
+Block.defineBlock (88,'Soul Sand',[['soul_sand',0]],2,false,7)
 Block.setShape (88,0,0,0,1,15/16,1)
 
 Block.defineBlock (115,'Nether Wart S1',[['nether_wart_stage_x',0]],50,false,6)
