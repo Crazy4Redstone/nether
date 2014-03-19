@@ -30,7 +30,6 @@ function useItem (x,y,z,itemId,blockId,side)
   if (itemId == 372 && blockId == 88 && side == 1)
   {
     setTile (x,y+1,z,115)
-    addItemInventory (372,-1)
   }
   if (itemId == 0 && blockId == 115)
   {
@@ -42,3 +41,14 @@ function useItem (x,y,z,itemId,blockId,side)
   }
 }  
 
+function modTick ()
+{
+  if (getTile (getPlayerX (),getPlayerY ()-2,getPlayerZ ()) == 88)
+  {
+    Entity.setSneaking (getPlayerEnt (),true)
+  }
+  else
+  {
+    Entity.setSneaking (getPlayerEnt (),false)
+  }
+}
