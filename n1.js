@@ -24,11 +24,11 @@ function useItem (x,y,z,itemId,blockId,side)
   {
     setTile (x,y+1,z,115)
   }
-  else if (itemId == 351:15 && blockId == 115)
+  else if (itemId == 351,15 && blockId == 115)
   {
     setTile (x,y,z,116)
   }
-  else if (itemId == 351:15 && blockId == 116)
+  else if (itemId == 351,15 && blockId == 116)
   {
     setTile (x,y,z,117)
   }
