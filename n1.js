@@ -32,11 +32,11 @@ function useItem (x,y,z,itemId,blockId,side)
     setTile (x,y+1,z,115)
     addItemInventory (372,-1)
   }
-  else if (itemId == 0 && blockId == 115)
+  if (itemId == 0 && blockId == 115)
   {
     setTile (x,y,z,116)
   }
-  else if (itemId == 0 && blockId == 116)
+  if (itemId == 0 && blockId == 116)
   {
     setTile (x,y,z,117)
   }
